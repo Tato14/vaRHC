@@ -976,6 +976,7 @@ insightInfo <- function (object, remote, browser){
   multifactorial <- insightUrl (object, list.genes2, "mmr_integrative_eval", browser)
   } else{
     index <- "Not working"
+    multifactorial <- "Not working"
   }
 
   return (list (classification = index,
